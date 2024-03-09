@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: rvc-user-service
+  cloud:
+    nacos:
+      server-addr: ${NACOS_SERVER_ADDR:ENC(0+lMOGVDBO4F81w0IYsq1nbJ68SsAbCXd0oZLCjPgdU=)}
+      username: ${NACOS_SERVER_USER:ENC(74lu5M++MgvsFZXcqUzgfBnVs5md4Ws3)}
+      password: ${NACOS_SERVER_PASSWORD:ENC(LUTdAto7NS2SXxnzxWAxRpMraXEq3cYVHSnHwfhO+RU=)}
+      config:
+        file-extension: yaml
+        prefix: rvc-public-config
+        namespace: 9623bd6c-3483-4f9e-a40d-1d54e190eb9b
+      discovery:
+        namespace: 9623bd6c-3483-4f9e-a40d-1d54e190eb9b
+        cluster-name: BJ
+        ip: ${SERVER_ADDR:ENC(7+i1abkV1AAW737zy56ZvAWdcUq8AKM0WufHtc+3eqo=)}

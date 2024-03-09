@@ -32,3 +32,5 @@ build/
 ### VS Code ###
 .vscode/
 application-dev.yml
+/src/main/resources/bootstrap-dev.yml
+/src/main/resources/you-cant-see-that.yml
