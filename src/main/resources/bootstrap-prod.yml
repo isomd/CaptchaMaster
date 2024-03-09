@@ -1,6 +1,6 @@
 spring:
   application:
-    name: rvc-user-service
+    name: tml-captcha-service
   cloud:
     nacos:
       server-addr: ${NACOS_SERVER_ADDR:ENC(0+lMOGVDBO4F81w0IYsq1nbJ68SsAbCXd0oZLCjPgdU=)}
@@ -8,9 +8,9 @@ spring:
       password: ${NACOS_SERVER_PASSWORD:ENC(LUTdAto7NS2SXxnzxWAxRpMraXEq3cYVHSnHwfhO+RU=)}
       config:
         file-extension: yaml
-        prefix: rvc-public-config
-        namespace: 9623bd6c-3483-4f9e-a40d-1d54e190eb9b
+        prefix: rvc-captcha-config
+        namespace: 98732302-bf12-40a5-8d93-7f2d97187a12
       discovery:
-        namespace: 9623bd6c-3483-4f9e-a40d-1d54e190eb9b
+        namespace: 98732302-bf12-40a5-8d93-7f2d97187a12
         cluster-name: BJ
         ip: ${SERVER_ADDR:ENC(7+i1abkV1AAW737zy56ZvAWdcUq8AKM0WufHtc+3eqo=)}
