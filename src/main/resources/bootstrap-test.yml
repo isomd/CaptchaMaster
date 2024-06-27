@@ -3,14 +3,23 @@ spring:
     name: tml-captcha-service
   cloud:
     nacos:
-      server-addr: ${NACOS_SERVER_ADDR:ENC(0+lMOGVDBO4F81w0IYsq1nbJ68SsAbCXd0oZLCjPgdU=)}
-      username: ${NACOS_SERVER_USER:ENC(74lu5M++MgvsFZXcqUzgfBnVs5md4Ws3)}
-      password: ${NACOS_SERVER_PASSWORD:ENC(LUTdAto7NS2SXxnzxWAxRpMraXEq3cYVHSnHwfhO+RU=)}
-      config:
-        file-extension: yaml
-        prefix: rvc-captcha-config
-        namespace: 98732302-bf12-40a5-8d93-7f2d97187a12
+      server-addr: ${NACOS_SERVER_ADDR:ENC(mZ6KsI+EkqODZAH2qdKUJzlo66asDZxKegO5bkjb3hwJb8y6FkFOLA==)}
+      username: ${NACOS_SERVER_USER:ENC(fjV9WIPRx0giRHfPe+sQ4RdkUyvAY3sp)}
+      password: ${NACOS_SERVER_PASSWORD:ENC(NZYKzLvLPo+HLsfOxoPkIA1XLClwp2VI1p4frx2IrPXvI0rm6egfmQ==)}
       discovery:
-        namespace: 98732302-bf12-40a5-8d93-7f2d97187a12
-        cluster-name: BJ
+        namespace: b21e6a4b-33d1-44c3-9b24-8a682c897292
         ip: ${SERVER_ADDR:ENC(7+i1abkV1AAW737zy56ZvAWdcUq8AKM0WufHtc+3eqo=)}
+  mail:
+    host: ${EMIAL_HOST:ENC(qMKUwBybaAKewuGZCDYjQw6tCfRVAO5aIQUolS8L06U=)}
+    port: ${EMAIL_PORT:ENC(bZ0+yJV9W8ZRDoWnDDOIFXm/BKivC188)}
+    username: ${EMAIL_USERNAME:ENC(Ndpes2aPfHdQQLG2Ds47yIxEh5/YB2ywTbf7UZ8Re7JgCTjwemDMQw==)}
+    password: ${EMAIL_PASSWORD:ENC(IFKjNrj7WUsXTiTldZ8TDgHxBxgkYHXBD5RrrjZ2SlGFXMCaObgqgA==)}
+    test-connection: false
+
+captcha:
+  mail:
+    code-length: 6
+  image-code:
+    width: 180
+    height: 40
+    dot-size: 50
