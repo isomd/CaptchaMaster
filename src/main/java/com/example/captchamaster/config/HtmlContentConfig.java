@@ -17,4 +17,5 @@ public class HtmlContentConfig {
         byte[] fileData = FileCopyUtils.copyToByteArray(resource.getInputStream());
         return new String(fileData, StandardCharsets.UTF_8);
     }
+
 }
