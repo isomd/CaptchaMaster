@@ -11,7 +11,7 @@ spring:
         ip: ${SERVER_ADDR:ENC(7+i1abkV1AAW737zy56ZvAWdcUq8AKM0WufHtc+3eqo=)}
   mail:
     host: ${EMIAL_HOST:ENC(qMKUwBybaAKewuGZCDYjQw6tCfRVAO5aIQUolS8L06U=)}
-    port: ${EMAIL_PORT:ENC(bZ0+yJV9W8ZRDoWnDDOIFXm/BKivC188)}
+    port: ${EMAIL_PORT:ENC(7RRjEe4cBjcETAkyZ6TBh5zwIw6KrEaz)}
     username: ${EMAIL_USERNAME:ENC(Ndpes2aPfHdQQLG2Ds47yIxEh5/YB2ywTbf7UZ8Re7JgCTjwemDMQw==)}
     password: ${EMAIL_PASSWORD:ENC(IFKjNrj7WUsXTiTldZ8TDgHxBxgkYHXBD5RrrjZ2SlGFXMCaObgqgA==)}
     test-connection: false
