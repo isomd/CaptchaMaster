@@ -8,7 +8,7 @@ spring:
       password: ${NACOS_SERVER_PASSWORD:ENC(NZYKzLvLPo+HLsfOxoPkIA1XLClwp2VI1p4frx2IrPXvI0rm6egfmQ==)}
       discovery:
         namespace: b21e6a4b-33d1-44c3-9b24-8a682c897292
-        ip: ${SERVER_ADDR:ENC(7+i1abkV1AAW737zy56ZvAWdcUq8AKM0WufHtc+3eqo=)}
+        ip: ${SERVER_ADDR:ENC(k8vJSnZr6caJGxQ1KPjdbKYkVJrBUeSWSAK0ry8TfBk=)}
   mail:
     host: ${EMIAL_HOST:ENC(qMKUwBybaAKewuGZCDYjQw6tCfRVAO5aIQUolS8L06U=)}
     port: ${EMAIL_PORT:ENC(7RRjEe4cBjcETAkyZ6TBh5zwIw6KrEaz)}
